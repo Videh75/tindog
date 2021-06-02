@@ -1,0 +1,183 @@
+
+
+   body {
+     text-align: center;
+   }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+   }
+
+
+  p {
+    color: #8f8f8f;
+   }
+
+.big-heading {
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+
+
+.container-fluid {
+  padding: 7% 15%;
+
+ }
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+ }
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+ }
+
+.nav-item {
+  padding: 0 18px;
+ }
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bolder;
+ }
+
+ /* download-button */
+
+ .download-button {
+   margin: 5% 3% 5% 0;
+ }
+
+ /* Title-section */
+
+ #title {
+   background-image: linear-gradient(to right top, #f40a66, #f32974, #f23c82, #f04b8e, #ed589a, #ed5899, #ec5798, #ec5797, #ee4989, #ef397b, #ef256b, #ee005b);
+   text-align: left;
+  }
+
+  #title .container-fluid {
+    padding: 3% 15% 7%;
+  }
+
+
+ .title-image {
+   width: 19%;
+   transform: rotate(25deg);
+   position: absolute;
+   left: 57%;
+  }
+
+  /* Features-section */
+
+  #features {
+    background-color: #fff;
+    position: relative;
+  }
+
+  .feature-text {
+    font-size: 1.5rem;;
+  }
+
+  .feature-box{
+    padding: 5%;
+  }
+
+  .icon {
+    color: #EE4B8B;
+    margin-bottom: 1rem;
+  }
+
+  .icon:hover {
+    color: #F00661;
+  }
+
+  /* Testimonial-section */
+
+  .testimonials {
+    font-family: 'Montserrat', sans-serif;
+    background-image: linear-gradient(to right top, #f40a66, #f32974, #f23c82, #f04b8e, #ed589a, #ed5899, #ec5798, #ec5797, #ee4989, #ef397b, #ef256b, #ee005b);
+    color: #fff;
+  }
+
+  .testimonial-img1 {
+    width: 10%;
+    margin: 25px 20px 10px;
+  }
+
+  .testimonial-img2 {
+    width: 10%;
+    margin: 25px 20px 10px;
+  }
+
+  .testimonials .press {
+    padding: 3%;
+  }
+
+  .testimonial-text {
+    font-size: 2.5rem;
+    line-height: 1.5;
+    padding: 0 10% 0 10%;
+  }
+
+  .press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+  }
+
+  /* Pricing-section */
+
+  #pricing {
+    padding: 120px;
+  }
+
+  .section-heading {
+    font-size: 2.5rem;
+    line-height: 1.5;
+  }
+
+  .pricing-column {
+    padding: 3% 2%;
+  }
+
+  .pricing-text {
+    font-size: 2.5rem;
+    line-height: 1.5;
+    padding: 0 10% 0 10%;
+  }
+
+
+/* CTA-section */
+
+  #cta {
+    background-image: linear-gradient(to right top, #f40a66, #f32974, #f23c82, #f04b8e, #ed589a, #ed5899, #ec5798, #ec5797, #ee4989, #ef397b, #ef256b, #ee005b);
+    color: #fff;
+  }
+
+
+  /* Footer-section */
+
+  .social-icon {
+    margin: 20px 10px;
+  }
+
+
+  @media (max-width: 1028px) {
+
+    #title {
+      text-align: center;
+    }
+
+    .title-image {
+      width: 65%;
+      position: static;
+      transform: rotate(0);
+    }
+  }
